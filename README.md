@@ -14,8 +14,5 @@ We use [poetry](https://python-poetry.org/) to install our dependencies.
 
 ## (NOT RECOMMENDED) Setup (pip)
 Alternatively, run ```pip3 install arcade pymunk``` and then ```python3 sim.py```
-
-Install [Arcade](https://arcade.academy/) (describe what this is) and [Pymunk](http://www.pymunk.org/en/latest/) (describe what this is) libraries. 
-
-## Heading
-Point out what part of the code is what idk?
+[Arcade](https://arcade.academy/) is used for drawing of the elements in the game.
+[Pymunk](http://www.pymunk.org/en/latest/) is the 2D physics library. 
