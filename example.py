@@ -32,7 +32,8 @@ def out(robot: Robot, line: pymunk.Vec2d) -> None:
         0
         if line.x == 0
         else abs(line.x)
-        if robot.TOFReadings[1] > robot.TOFReadings[3]
+        if (robot.TOFReadings[1] > robot.TOFReadings[3] and robot.TOFReadings[3] < 120)
+        or robot.TOFReadings[1] > 120
         else -abs(line.x),
         0
         if line.y == 0
